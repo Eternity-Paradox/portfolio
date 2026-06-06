@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Saiyadil Murshalin — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header id="navbar">
+    <nav class="navbar">
+      <div class="logo">MS<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">MD Saiyadil<br><span>Murshalin</span></h1>
+        <p class="hero-tagline">E-Commerce Developer &nbsp;·&nbsp; Web Programmer &nbsp;·&nbsp; DBMS Enthusiast</p>
+        <div class="hero-btns">
+          <button class="btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+          <a class="btn-outline" href="cv.docx" download>Download CV</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span>3.50</span><small>CGPA</small></div>
+          <div class="stat"><span>3+</span><small>Projects</small></div>
+          <div class="stat"><span>9+</span><small>Skills</small></div>
+          <div class="stat"><span>5</span><small>Languages</small></div>
+        </div>
+      </div>
+      <div class="hero-img-wrap">
+        <div class="hero-img-ring"></div>
+        <img src="mypic.jpg" class="profile-img" alt="MD Saiyadil Murshalin">
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-label">01 — About</div>
+    <h2 class="section-title">Who I Am</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a Computer Science student at <strong>Varendra University</strong>, passionate about building full-stack web applications and database-driven systems. With a strong academic foundation (CGPA 3.50) and hands-on project experience, I'm always eager to learn new technologies and solve real-world problems.</p>
+        <p>My background spans web development, e-commerce platforms, DBMS design, and digital signal processing — giving me both software and systems breadth.</p>
+        <div class="about-badges">
+          <span class="badge">📍 Rajshahi, Bangladesh</span>
+          <span class="badge">🎓 BSc CSE — Varendra University</span>
+          <span class="badge">📧 siamvu1117@gmail.com</span>
+          <span class="badge">💻 github.com/Eternity-Paradox</span>
+        </div>
+      </div>
+      <div class="about-highlights">
+        <div class="highlight-card">
+          <div class="hc-icon">🎯</div>
+          <h4>Full-Stack Mindset</h4>
+          <p>Strong foundations in both software (DSA, algorithms, software engineering) and hardware/signals (DSP, digital systems).</p>
+        </div>
+        <div class="highlight-card">
+          <div class="hc-icon">🗃️</div>
+          <h4>DBMS Enthusiast</h4>
+          <p>Experienced with MySQL and SQL Server — designing schemas and building database-driven applications.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="hc-icon">🌐</div>
+          <h4>Web Developer</h4>
+          <p>Building responsive, modern web applications using HTML5, CSS3, JavaScript and E-Commerce systems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt-bg">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title">Technical Arsenal</h2>
+    <div class="skills-groups">
+
+      <div class="skill-group">
+        <h3>Programming Languages</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Web Development</h3>
+        <div class="skill-tags">
+          <span class="skill-tag accent">HTML5</span>
+          <span class="skill-tag accent">CSS3</span>
+          <span class="skill-tag accent">JavaScript</span>
+          <span class="skill-tag accent">Responsive Design</span>
+          <span class="skill-tag accent">E-Commerce Systems</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Database</h3>
+        <div class="skill-tags">
+          <span class="skill-tag gold">MySQL</span>
+          <span class="skill-tag gold">SQL Server</span>
+          <span class="skill-tag gold">DBMS Design</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Tools & Technologies</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Git & GitHub</span>
+          <span class="skill-tag">MATLAB</span>
+          <span class="skill-tag">Ubuntu</span>
+          <span class="skill-tag">Microsoft Office</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Research Interests</h3>
+        <div class="skill-tags">
+          <span class="skill-tag soft">AI / Machine Learning</span>
+          <span class="skill-tag soft">Digital Signal Processing</span>
+          <span class="skill-tag soft">Data Science</span>
+          <span class="skill-tag soft">Computer Networks</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title">Featured Work</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-num">01</div>
+        <div class="project-tags-top"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>DBMS</span></div>
+        <h3>E-Commerce Website</h3>
+        <p>An online shopping platform with cart system, product management, user authentication, and a DBMS-ready backend architecture. Designed with a fully responsive UI.</p>
+        <div class="project-footer">
+          <a href="https://github.com/Eternity-Paradox" target="_blank" class="proj-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card featured">
+        <div class="project-num">02</div>
+        <div class="project-tags-top"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <h3>University Admission Portal</h3>
+        <p>A comprehensive platform providing university admission information — faculties, departments, contact details, and structured guidance for prospective students.</p>
+        <div class="project-footer">
+          <a href="https://github.com/Eternity-Paradox" target="_blank" class="proj-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <div class="project-tags-top"><span>MATLAB</span><span>DSP</span></div>
+        <h3>Speech & Music Discrimination System</h3>
+        <p>A signal processing system that classifies speech vs music signals using advanced DSP techniques for feature extraction and pattern recognition in MATLAB.</p>
+        <div class="project-footer">
+          <a href="https://github.com/Eternity-Paradox" target="_blank" class="proj-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">04</div>
+        <div class="project-tags-top"><span>MySQL</span><span>DBMS</span></div>
+        <h3>Inventory Management System</h3>
+        <p>A database-driven stock management system for tracking inventory, managing products, and generating structured reports using relational database design.</p>
+        <div class="project-footer">
+          <a href="https://github.com/Eternity-Paradox" target="_blank" class="proj-link">GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section alt-bg">
+    <div class="section-label">04 — Resume</div>
+    <h2 class="section-title">Education & Background</h2>
+    <div class="resume-layout">
+
+      <div class="timeline">
+        <h3 class="timeline-heading">Education</h3>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2023 – Present</span>
+            <h4>BSc in Computer Science & Engineering</h4>
+            <p class="tl-place">Varendra University</p>
+            <p class="tl-detail">CGPA: 3.50 &nbsp;·&nbsp; Coursework: DSA, DBMS, Web Programming, Networks, DSP, Software Engineering</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2021</span>
+            <h4>Higher Secondary Certificate (HSC)</h4>
+            <p class="tl-place">Rajshahi Collegiate College</p>
+            <p class="tl-detail">GPA: 5.00</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2019</span>
+            <h4>Secondary School Certificate (SSC)</h4>
+            <p class="tl-place">Haji Muhammad Mohsin Govt. High School, Rajshahi</p>
+            <p class="tl-detail">GPA: 5.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-right">
+        <div class="soft-skills-card">
+          <h3>Soft Skills</h3>
+          <div class="soft-skill-list">
+            <div class="ss-item"><span class="ss-icon">💡</span> Problem Solving</div>
+            <div class="ss-item"><span class="ss-icon">🤝</span> Teamwork</div>
+            <div class="ss-item"><span class="ss-icon">🗣️</span> Communication</div>
+            <div class="ss-item"><span class="ss-icon">👑</span> Leadership</div>
+            <div class="ss-item"><span class="ss-icon">⏱️</span> Time Management</div>
+            <div class="ss-item"><span class="ss-icon">🧠</span> Critical Thinking</div>
+          </div>
+        </div>
+
+        <div class="lang-card">
+          <h3>Languages</h3>
+          <div class="lang-list">
+            <div class="lang-item"><span>Bengali</span><span class="lang-level native">Native</span></div>
+            <div class="lang-item"><span>English</span><span class="lang-level pro">Professional</span></div>
+            <div class="lang-item"><span>Hindi</span><span class="lang-level conv">Conversational</span></div>
+            <div class="lang-item"><span>Urdu</span><span class="lang-level conv">Conversational</span></div>
+            <div class="lang-item"><span>German</span><span class="lang-level learn">Learning</span></div>
+          </div>
+        </div>
+
+        <div class="activities-card">
+          <h3>Activities</h3>
+          <ul>
+            <li>Member, Programming Club</li>
+            <li>Volunteer, University Events</li>
+            <li>Participant, Programming Contests</li>
+            <li>Participant, Technical Workshops</li>
+            <li>2 Years as Class Representative</li>
+          </ul>
+        </div>
+
+        <a href="cv.docx" class="cv-download-btn" download>
+          <span>⬇</span> Download Full CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-label">05 — Contact</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-layout">
+      <div class="contact-info">
+        <p>I'm open to opportunities, collaborations, and new projects. Feel free to reach out!</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <span class="ci-icon">📧</span>
+            <div><strong>Email</strong><br><a href="mailto:siamvu1117@gmail.com">siamvu1117@gmail.com</a></div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">📱</span>
+            <div><strong>Phone</strong><br><a href="tel:01716404617">01716404617</a></div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">💻</span>
+            <div><strong>GitHub</strong><br><a href="https://github.com/Eternity-Paradox" target="_blank">Eternity-Paradox</a></div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">📍</span>
+            <div><strong>Location</strong><br>Rajpara, Rajshahi, Bangladesh</div>
+          </div>
+        </div>
+      </div>
+      <form id="contactForm" method="POST" class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Saiyadil Murshalin" required>
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="you@email.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Project Collaboration">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="logo">MS<span>.</span></div>
+      <p>© 2026 MD Saiyadil Murshalin &nbsp;·&nbsp; E-Commerce & Web Developer</p>
+      <div class="footer-links">
+        <a href="https://github.com/Eternity-Paradox" target="_blank">GitHub</a>
+        <a href="mailto:siamvu1117@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
