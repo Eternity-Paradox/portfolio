@@ -34,4 +34,5 @@ It showcases my skills, projects, resume, and contact form.
 - Deploy custom domain
 
 📷 Preview
-<img width="1883" height="895" alt="image" src="https://github.com/user-attachments/assets/d11184b1-9f23-4a13-89bb-2fcd8b1b06e0" />
+<img width="1887" height="918" alt="image" src="https://github.com/user-attachments/assets/7f4305c2-02f2-4e6c-8385-8a414bee9521" />
+
